@@ -21,12 +21,13 @@ include 'includes/header.php';
 	
 		</div>
 		
-			
+	</div>	
 			<footer>
-				<p>
-					&copy; Copyright by Michelle Currier
-				</p>
+				<ul>
+					<li>&copy; Copyright by Michelle Currier</li>
+					<li>For booking <a href="mailto:mush_el@yahoo.com">email me</a>!</li>
+				</ul>
 			</footer>
-	</div>
+	
 	</body>
 </html>

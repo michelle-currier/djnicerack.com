@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	display: flex;
+	flex-direction: column;
 }
 ol, ul {
 	list-style: none;
@@ -55,24 +57,50 @@ body {
 	margin: 10px auto 50px auto;
 	padding: 10px 0px;
 	box-sizing: border-box;
+	flex: 1 0 auto;
 }
 
-.content > div {
+.content > div > div {
 	border-bottom: 3px solid #ccc;
 	padding: 0px 40px 20px 40px;
 }
 
-footer {
-	margin: -50px auto 0px auto;
-	position: absolute;
-	bottom: 0px;
-	background: #ccc;
-	max-width: 1024px;
-	padding: 10px 40px;
-	width: 100%;
-	box-sizing: border-box;
+.content > section {
+	padding: 0px 0px 20px 0px;
 }
 
+footer {
+	margin: 0px auto 0px auto;
+	background: #ccc;
+	max-width: 1024px;
+	
+	width: 100%;
+	box-sizing: border-box;
+	flex: 0 0 auto;
+	height: 55px;
+}
+/*footer:before {
+	width: 0;
+	height: 0;
+	border-bottom: 44px solid #222;
+	border-left: 10px solid transparent;
+	content: "";
+	display: inline-block;
+	margin-left: -10px;
+	margin-bottom: -1px;
+}
+footer:after {
+	width: 0;
+	height: 0;
+	border-top: 44px solid #222;
+	border-right: 10px solid transparent;
+	content: "";
+	display: inline-block;
+	margin-right: -10px;
+}*/
+footer ul {
+	padding: 10px 40px 0px 40px;
+}
 footer li {
 	display: inline-block;
 	float: left;
@@ -85,9 +113,51 @@ a {
 	border-bottom: 3px solid #f0c;
 	line-height: 30px;
 }
-
+footer li {
+	line-height: 30px;
+}
 a:hover {
-	color: #111;
-	border-bottom: 3px solid #111;
+	color: #222;
+	border-bottom: 3px solid #222;
 	transition: all .5s ease;
+}
+nav li {
+	display: inline-block;
+	margin:0px 10px 20px 10px;
+	background: #222;
+	box-sizing: border-box;
+}
+nav li:before {
+	width: 0;
+	height: 0;
+	border-bottom: 44px solid #222;
+	border-left: 10px solid transparent;
+	content: "";
+	display: inline-block;
+	margin-left: -10px;
+	margin-bottom: -1px;
+}
+nav li:after {
+	width: 0;
+	height: 0;
+	border-top: 44px solid #222;
+	border-right: 10px solid transparent;
+	content: "";
+	display: inline-block;
+	margin-right: -10px;
+}
+
+nav li a {
+	border-bottom: 0px;
+	font-size: 20px;
+	color: #fff;
+	padding: 0px 10px;
+	vertical-align: top;
+	line-height: 45px
+}
+nav li a:hover {
+	transition: all .5s ease;
+	color: #777;
+	border-bottom: none;
+	text-decoration: none;
 }

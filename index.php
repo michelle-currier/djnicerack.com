@@ -2,17 +2,7 @@
 include 'includes/header.php';
 ?> 
 
-	<body>
-		<div class="content">
-			<div>
-				<nav>
-					<p>
-						<a href="/index.php">Home</a>
-					</p>
-					<p>
-						<a href="/contact.php">Contact</a>
-					</p>
-				</nav>
+	
 	
 				<div>
 					<h1>Yep some things will go here soon.</h1>
@@ -24,7 +14,7 @@ include 'includes/header.php';
 				</div>
 			</div>
 				
-			
+		</div>	
 		
 			<footer>
 				<ul>
@@ -33,7 +23,7 @@ include 'includes/header.php';
 				</ul>
 				
 			</footer>
-		</div>
+		
 	<script src="includes/MooTools-Core-1.6.0.js"></script>
 	<script type="text/javascript">
 	$("myElement").addEvent("click", function(){
