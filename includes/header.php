@@ -20,6 +20,7 @@
         <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700' rel='stylesheet' type='text/css'>
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css">
 		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript">
+		<script src="https://use.fontawesome.com/9f375254cc.js"></script>
 		<link rel="stylesheet" href="css/style.css" >
 		<!--
 			 __  ___   __  ___.   ____    _____    ___   ___.    __  __

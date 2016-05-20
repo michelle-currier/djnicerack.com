@@ -16,13 +16,9 @@ include 'includes/header.php';
 				
 		</div>	
 		
-			<footer>
-				<ul>
-					<li>&copy; Copyright by Michelle Currier</li>
-					<li>For booking <a href="mailto:mush_el@yahoo.com">email me</a>!</li>
-				</ul>
-				
-			</footer>
+<?php 
+include 'includes/footer.php';
+?>			
 		
 	<script src="includes/MooTools-Core-1.6.0.js"></script>
 	<script type="text/javascript">

@@ -73,11 +73,11 @@ footer {
 	margin: 0px auto 0px auto;
 	background: #ccc;
 	max-width: 1024px;
-	
+	border-top: 3px solid #222;
 	width: 100%;
 	box-sizing: border-box;
 	flex: 0 0 auto;
-	height: 55px;
+	height: 155px;
 }
 /*footer:before {
 	width: 0;
@@ -98,23 +98,58 @@ footer:after {
 	display: inline-block;
 	margin-right: -10px;
 }*/
-footer ul {
-	padding: 10px 40px 0px 40px;
-}
-footer li {
-	display: inline-block;
-	float: left;
-	margin-right: 20px;
-}
 
+
+footer i {
+	padding: 0px 10px;
+}
+.fa {
+	font-size: 30px !important;
+	color: #222;
+}
+footer a .fa {
+	color: #007bff;
+}
+footer a {
+	border-bottom: 0px solid;
+}
+footer a:hover {
+	border-bottom: 0px solid;
+}
+footer a .fa:hover {
+	color: #222;
+	transition: all .5s ease;
+}
 a {
 	color: #f0c;
 	text-decoration: none;
 	border-bottom: 3px solid #f0c;
 	line-height: 30px;
 }
-footer li {
+
+footer ul.copy {
+	padding: 10px 40px 0px 40px;
+	width: 300px;
+}
+footer .copy li {
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
 	line-height: 30px;
+}
+
+footer ul.likes {
+	width: 300px;
+	float: right;
+	text-align: center;
+}
+footer ul.likes li {
+	padding: 0px;
+	margin: 0px;
+}
+footer ul.likes a i.fa {
+	font-size: 19px !important;
+	line-height: 24px;
 }
 a:hover {
 	color: #222;
