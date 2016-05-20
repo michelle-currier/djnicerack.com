@@ -22,20 +22,8 @@ include 'includes/header.php';
 				
 		</div>	
 		
-			<footer>
-				<ul>
-					<li>&copy; Copyright by Michelle Currier</li>
-					<li>For booking <a href="mailto:mush_el@yahoo.com">email me</a>!</li>
-				</ul>
-				<i class="fa fa-bicycle" aria-hidden="true"></i> <i class="fa fa-female" aria-hidden="true"></i> <i class="fa fa-diamond" aria-hidden="true"></i> <i class="fa fa-headphones" aria-hidden="true"></i> <i class="fa fa-paint-brush" aria-hidden="true"></i>
-				
-				<i class="fa fa-codepen" aria-hidden="true"></i>
-				<i class="fa fa-github" aria-hidden="true"></i>
-				<i class="fa fa-instagram" aria-hidden="true"></i>
-				<i class="fa fa-facebook-official" aria-hidden="true"></i>
-				<i class="fa fa-soundcloud" aria-hidden="true"></i>
-
-			</footer>
-	
+<?php 
+include 'includes/footer.php';
+?>
 	</body>
 </html>

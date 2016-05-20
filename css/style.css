@@ -139,9 +139,10 @@ footer .copy li {
 }
 
 footer ul.likes {
-	width: 300px;
+	width: 100px;
 	float: right;
 	text-align: center;
+	margin-top: -31px;
 }
 footer ul.likes li {
 	padding: 0px;
@@ -150,6 +151,9 @@ footer ul.likes li {
 footer ul.likes a i.fa {
 	font-size: 19px !important;
 	line-height: 24px;
+}
+.links {
+	display: inline-block;
 }
 a:hover {
 	color: #222;
