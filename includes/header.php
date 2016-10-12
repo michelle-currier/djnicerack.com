@@ -16,10 +16,15 @@
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
        
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <!-- no more mont <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        	font-family: 'Lobster', cursive;
+font-family: 'Lato', sans-serif;
+        	
+        	-->
+        <link href="https://fonts.googleapis.com/css?family=Lato|Lobster" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700' rel='stylesheet' type='text/css'>
-        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css">
-		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript">
+		<link href="css/nomalize.css" type="text/css" rel="stylesheet">
+		<link href="css/skeleton.css" type="text/css" rel="stylesheet">
 		<script src="https://use.fontawesome.com/9f375254cc.js"></script>
 		<link rel="stylesheet" href="css/style.css" >
 		<!--
@@ -29,14 +34,12 @@
 		 =============================================================
 		 
 		 
-		 
-		 
-		 
 		-->
 	</head>
 	<body>
-		<div class="content">
-			<div>
+		<div class="container">
+		
+			<!--
 				<nav>
 					<ul>
 						<li><a href="index.php">Home</a></li>
@@ -44,4 +47,9 @@
 					</ul>
 						
 					
-				</nav>
+				</nav>-->
+				
+			<div style="margin: 20px 0px 0px 20px;">
+				<a href="index.php" class="button">Home</a> 
+				<a href="contact.php" class="button">Contact</a>
+			</div>
