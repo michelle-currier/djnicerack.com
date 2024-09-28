@@ -6,7 +6,8 @@ include 'includes/header.php';
 	
 				<div style="padding: 20px;">
 					<img src="images/nicerack_recordshop.png" title="dj Nice Rack" style="margin:0px 0px 20px 20px;float: right;"/>
-					<p>Born in Louisiana, the southern epicenter of blues beats and bumpin bass, DJ Nice Rack cut her vinyl teeth in Los Angeles. Spinning her ecelectic cacophony of bass and breaks, bounce, and southern rap, she's melded the nostalgia of yesterday's hip hop with the futurist sounds that keep the dance party at full booty dystopian anarchy. Crank it up to eleven and you'll find her behind the table til' it ruptures like the reality around her. 
+					<p>Born in Louisiana, the southern epicenter of blues rhythms and booming bass, DJ Nice Rack cut her vinyl teeth in Los Angeles in 2001. Relocating to Orlando Florida for her undergraduate studies, she delved deeper into DJing and digital production, immersing herself in the heart of the Florida breaks scene. Spinning her eclectic cacophony of breaks, bass, freestyle, baile funke, club, G-house, garage, bounce, and southern rap, she's melded the nostalgia of yesterday's hip hop and rave gems with the futurist sounds that fuel dance floors into a state of euphoric, booty-shaking anarchy. Whether spinning from her carefully curated vinyl collection spanning over two decades or delivering a digital set, she guarantees the good times will roll. 
+ 
 </p>
 					<a href="http://codepen.io/mush_el/" target="_blank">Codepen</a>
 						
